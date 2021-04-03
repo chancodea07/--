@@ -36,7 +36,6 @@ START:
     MOV AX, 0
     LEA SI, ADD2
     ADD SI, 15
-
     CALL NUMBER_PROCESS
     PUSH AX
     MOV AX, 0
